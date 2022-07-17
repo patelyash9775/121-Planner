@@ -1,0 +1,408 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.App {
+  text-align: center;
+  margin-left: 15px;
+  background-color: rgb(122, 75, 17);
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.justfordemo {
+  color: green;
+}
+
+.signin-content{
+  display: inline-flex;
+  border-radius: 10px;
+  background-color: #ec861a;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+  margin: 75px;
+  padding: 75px;
+  top: 50%;
+  left: 50%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.info {
+  color: antiquewhite;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.signup-image-link,.signin-image-link{
+  border: ridge;
+  padding: 7px;
+}
+
+
+ .home-div {
+top: 50%;
+margin-top: 200px;
+border: ridge;
+border-color: brown;
+padding: 20px;
+width: 500px;
+font-family: "Open Sans", sans-serif;
+color: rgb(20, 15, 6);
+background-color: #ec861a;
+} 
+
+.emp-profile {
+  border-radius: 10px;
+  background-color: #ec861a;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  margin: 75px;
+}
+
+.profile-head{
+  color: rgb(235, 230, 224);
+}
+
+
+
+.form-title{
+  margin-right: 75px;
+}
+
+.signup-content{
+  display: inline-flex;
+  border-radius: 10px;
+  background-color: #ec861a;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+  margin: 25px;
+  padding: 75px;
+  
+  font-family: "Open Sans", sans-serif;
+}
+
+.Form-element{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 7px;
+}
+.req,.zmdi-account{
+  margin-inline: 15px;
+}
+.zmdi{
+  margin-inline: 10px;
+}
+.zmdi-email{
+  margin-inline: 10px;
+}
+.zmdi-phone-in-talk{
+  margin-inline: 10px;
+}
+
+.zmdi-slideshow{
+  margin-inline: 10px;
+}
+.zmdi-lock{
+  margin-inline: 10px;
+}
+.signup{
+  text-align: -webkit-center;
+}
+
+.form-input{
+  width: 242px;
+}
+.signup-image{
+  width: 311px;
+  height: 275px;
+  margin-inline-start: 20px;
+  margin-top: 50px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.form-group{
+  margin: 30px;
+}
+.mtitle{
+  margin-left: 40px;
+}
+.form-title{
+  text-align: -webkit-right;
+  margin-top: 12px;
+}
+figure {
+  margin: 0 0 2rem;
+}
+
+.form-submit{
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(95, 95, 247);
+  width: 97px;
+  
+}
+
+.collapse {
+  background-color: #0a2d4f;
+  justify-content: center;
+  border-radius: 4px;
+  border-color: none;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+}
+
+.info-title{
+  color: rgb(12, 16, 9);
+  font-family: cursive;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .username .nav-link {
+  color: black;
+  
+}
+
+.navbar-brand{
+  position: absolute;
+  left: 1%;
+}
+
+.navbar-nav .user_name .nav-link{
+  position: absolute;
+  right: 0%;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: orange;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .user_name .nav-link.active {
+  color: rgb(13, 0, 255);
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .user_name .nav-link:hover {
+  color: red;
+}
+
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(232, 195, 127);
+}
+
+.sign-in,.signup{
+  background-color: #0a2d4f;
+  height: 100%;
+}
+
+#work {
+  padding: 1px 2px;
+}
+
+input {
+  border-radius: 2px;
+}
+
+.Form-element select{
+  padding: 2px 3px;
+}
+
+.conn{
+  background-color: #0a2d4f;
+  padding: 10px;
+  justify-content: center;
+  height: 800px;
+}
+
+.contact_info_item{
+  display: inline-flex;
+  border-radius: 4px;
+  border-color: none;
+  background-color: #ec861a;
+  padding: 5px;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+}
+
+.contact_form_title {
+  font-size: 1.5em;
+  color: wheat;
+}
+
+.contact_info{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.contact_form_text{
+  text-align: -webkit-center;
+}
+
+textarea{
+  border-radius: 8px;
+  border-color: none;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+}
+
+.forgot{
+  color: bisque;
+}
+
+.input_field{
+  border-radius: 7px;
+  border-color: brown;
+  box-shadow: 0 0 30px rgb(0 0 0 / 80%);
+}
+
+.contact_form{
+  border-radius: 4px;
+  border-color: brown;
+  background-color: #ec861a;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+  margin: 20px 20px;
+}
+
+.table{
+  border-radius: 4px;
+  border-color: brown;
+  background-color: #ec861a;
+  box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.navbar-brand > img {
+  width: 150px;
+  height: auto;
+}
+
+.navbar .navbar-expand-lg .navbar-light{
+  background-color: #0a2d4f;
+  
+}
+
+.username {
+  color: bisque;
+}
+
+@media only screen and (max-width: 500px) {
+  .table{
+    border-radius: 2px;
+    border-color: brown;
+    background-color: #ec861a;
+    box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.5em;
+  }
+
+  .signup-content{
+    display: block;
+    border-radius: 5px;
+    background-color: #ec861a;
+    box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.8em;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .signup-register .signpic{
+    width: 300px;
+    height: 185px;
+    margin-left: 15px;
+    display: block;
+  }
+  
+
+  .signup{
+    text-align: none;
+  }
+ 
+  .form-button {
+    display: flex;
+  }
+
+  .text_field{
+    width: 280px;
+  }
+  .input_field{
+    width: 90px;
+  }
+
+  .contact_form,.contact_info{
+    font-size: 0.75em;
+  }
+  .emp-profile{
+    margin: 10px;
+  }
+  .conn{
+    height: 900px;
+  }
+  .signin-content{
+   display: block;
+    border-radius: 5px;
+    background-color: #ec861a;
+    box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+    margin: 5px;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .signin-register img{
+    width: 280px;
+  }
+  .form-title{
+   margin-right: 125px;
+   margin-top: 15px;
+
+  }
+  .login{
+    display: inline-flex
+  }
+  .register{
+    display: inline-flex;
+  }
+  .home-div {
+    width: 75%;
+  }
+}
+
+
